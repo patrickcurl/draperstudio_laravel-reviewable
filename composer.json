@@ -1,0 +1,19 @@
+{
+    "name": "packagebackup/laravel-reviewable",
+    "description": "Reviewable Polymorphic Eloquent Models for for Laravel 5",
+    "require": {
+        "php": ">=5.5.9",
+        "packagebackup/laravel-service-provider": "1.0.*@dev",
+        "illuminate/database": "~5.0|~5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PackageBackup\\Reviewable\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
